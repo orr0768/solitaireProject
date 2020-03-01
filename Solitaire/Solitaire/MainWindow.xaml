@@ -1,0 +1,73 @@
+﻿<Window x:Class="Solitaire.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Solitaire"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <BitmapImage x:Key="ImageSource1" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="C:\Users\kaile\source\repos\orr0768\solitaireProject\Solitaire\Solitaire\IMG_1959 (3).PNG"/>
+    </Window.Resources>
+    <Grid Margin="-17,0,-38.4,-92" Background="#FF48B40F">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="14*"/>
+            <ColumnDefinition Width="762*"/>
+            <ColumnDefinition Width="117*"/>
+            <ColumnDefinition Width="35*"/>
+        </Grid.ColumnDefinitions>
+        <GroupBox Header="Stats" HorizontalAlignment="Left" Height="69" Margin="2.2,405,0,0" VerticalAlignment="Top" Width="100" Grid.Column="2"/>
+
+        <Rectangle HorizontalAlignment="Left" Height="108" Stroke="Black" VerticalAlignment="Top" Width="81" Margin="5.6,42,0,0" Grid.Column="1">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="https://tse4.mm.bing.net/th?id=OIP.dAvf3kOmrMfdka6IGK1PfQHaJ_&amp;pid=Api&amp;P=0&amp;w=300&amp;h=300"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="108" Stroke="Black" VerticalAlignment="Top" Width="81" Margin="5.6,166,0,0" Grid.Column="1">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="https://tse4.mm.bing.net/th?id=OIP.dAvf3kOmrMfdka6IGK1PfQHaJ_&amp;pid=Api&amp;P=0&amp;w=300&amp;h=300"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="108" Stroke="Black" VerticalAlignment="Top" Width="81" Margin="107.6,166,0,0" Grid.Column="1">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="https://tse4.mm.bing.net/th?id=OIP.dAvf3kOmrMfdka6IGK1PfQHaJ_&amp;pid=Api&amp;P=0&amp;w=300&amp;h=300"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="108" Stroke="Black" VerticalAlignment="Top" Width="81" Margin="210.6,166,0,0" Grid.Column="1">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="https://tse4.mm.bing.net/th?id=OIP.dAvf3kOmrMfdka6IGK1PfQHaJ_&amp;pid=Api&amp;P=0&amp;w=300&amp;h=300"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="108" Stroke="Black" VerticalAlignment="Top" Width="81" Margin="313.6,166,0,0" Grid.Column="1">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="https://tse4.mm.bing.net/th?id=OIP.dAvf3kOmrMfdka6IGK1PfQHaJ_&amp;pid=Api&amp;P=0&amp;w=300&amp;h=300"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="108" Stroke="Black" VerticalAlignment="Top" Width="81" Margin="414.6,166,0,0" Grid.Column="1">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="https://tse4.mm.bing.net/th?id=OIP.dAvf3kOmrMfdka6IGK1PfQHaJ_&amp;pid=Api&amp;P=0&amp;w=300&amp;h=300"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="108" Stroke="Black" VerticalAlignment="Top" Width="81" Margin="513.6,166,0,0" Grid.Column="1">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="https://tse4.mm.bing.net/th?id=OIP.dAvf3kOmrMfdka6IGK1PfQHaJ_&amp;pid=Api&amp;P=0&amp;w=300&amp;h=300"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="108" Stroke="Black" VerticalAlignment="Top" Width="81" Margin="607.6,166,0,0" Grid.Column="1">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="https://tse4.mm.bing.net/th?id=OIP.dAvf3kOmrMfdka6IGK1PfQHaJ_&amp;pid=Api&amp;P=0&amp;w=300&amp;h=300"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="108" Stroke="#FFE1EA1E" VerticalAlignment="Top" Width="81" Margin="313.6,42,0,0" StrokeThickness="2" Grid.Column="1"/>
+        <Rectangle HorizontalAlignment="Left" Height="108" Stroke="#FFE1EA1E" VerticalAlignment="Top" Width="81" Margin="414.6,42,0,0" StrokeThickness="2" Grid.Column="1"/>
+        <Rectangle HorizontalAlignment="Left" Height="108" Stroke="#FFE1EA1E" VerticalAlignment="Top" Width="81" Margin="513.6,42,0,0" StrokeThickness="2" Grid.Column="1"/>
+        <Rectangle HorizontalAlignment="Left" Height="108" Stroke="#FFE1EA1E" VerticalAlignment="Top" Width="81" Margin="607.6,42,0,0" StrokeThickness="2" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="28.2,423,0,0" TextWrapping="Wrap" Text="Time: 3:02" VerticalAlignment="Top" Width="74" Background="{x:Null}" BorderBrush="{x:Null}" Grid.Column="2"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="28.2,451,0,0" TextWrapping="Wrap" Text="Moves: 46" VerticalAlignment="Top" Width="74" Background="{x:Null}" BorderBrush="{x:Null}" Grid.Column="2"/>
+        <Button Content="Undo" HorizontalAlignment="Left" Margin="2.2,346,0,0" VerticalAlignment="Top" Width="100" Height="40" FontFamily="Kristen ITC" Background="#FFEAEB19" Grid.Column="2"/>
+        <Button Content="Draw 3" HorizontalAlignment="Left" Margin="2.2,286,0,0" VerticalAlignment="Top" Width="100" Height="40" FontFamily="Kristen ITC" Background="#FFEAEB19" Grid.Column="2"/>
+        <Button Content="Change Background" HorizontalAlignment="Left" Margin="2.2,225,0,0" VerticalAlignment="Top" Width="100" Height="40" FontSize="9" FontFamily="Kristen ITC" Background="#FFEAEB19" Grid.Column="2"/>
+        <Button Content="Change Deck Image" HorizontalAlignment="Left" Margin="2.2,166,0,0" VerticalAlignment="Top" Width="100" Height="40" FontSize="9" FontFamily="Kristen ITC" Background="#FFEAEB19" Grid.Column="2"/>
+
+    </Grid>
+</Window>
